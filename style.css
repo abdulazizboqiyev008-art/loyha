@@ -11,6 +11,7 @@ body {
     background-color: #f8fafc;
     color: #18191c;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 .header {
@@ -49,14 +50,21 @@ body {
     color: #4640de;
 }
 
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 .hero {
     min-height: 620px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 80px 150px;
     background-color: #ffffff;
-    text-align: center;
+    gap: 30px;
 }
 
 .hero-content {
@@ -69,6 +77,12 @@ body {
     font-weight: 700;
     margin-bottom: 15px;
     letter-spacing: 1px;
+}
+
+.logo-logo{
+    border-radius: 50px;
+    width: 600px;
+    height: 500px;
 }
 
 .hero-title {
@@ -87,6 +101,31 @@ body {
     line-height: 1.7;
 }
 
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    gap: 100px;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px 50px;
+}
+
+.b-lg{
+    width: 600px;
+    height: 300px;
+}
+
+.b-lgc{
+    width: 600px;
+    height: 300px;
+}
 .hero-btn {
     display: inline-block;
     padding: 14px 30px;
